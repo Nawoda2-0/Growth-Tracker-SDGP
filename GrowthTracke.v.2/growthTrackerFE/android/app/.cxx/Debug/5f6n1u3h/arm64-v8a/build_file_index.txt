@@ -1,0 +1,4 @@
+E:\IIT\2ndYear\SDGP_EverTea - backup\GrowthTracke.v.2\growthTrackerFE\node_modules\@react-native-async-storage\async-storage\android\build\generated\source\codegen\jni\CMakeLists.txt
+E:\IIT\2ndYear\SDGP_EverTea - backup\GrowthTracke.v.2\growthTrackerFE\node_modules\react-native-svg\android\src\main\jni\CMakeLists.txt
+E:\IIT\2ndYear\SDGP_EverTea - backup\GrowthTracke.v.2\growthTrackerFE\node_modules\react-native-vector-icons\android\build\generated\source\codegen\jni\CMakeLists.txt
+E:\IIT\2ndYear\SDGP_EverTea - backup\GrowthTracke.v.2\growthTrackerFE\node_modules\react-native\ReactAndroid\cmake-utils\default-app-setup\CMakeLists.txt

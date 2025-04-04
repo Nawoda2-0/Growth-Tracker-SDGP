@@ -1,0 +1,42 @@
+# ninja log v5
+2	72	0	E:/IIT/2ndYear/SDGP_EverTea - backup/GrowthTracke.v.2/growthTrackerFE/android/app/.cxx/Debug/5f6n1u3h/armeabi-v7a/CMakeFiles/cmake.verify_globs	1b4e9f4d39e7807b
+1296	8208	7654654003453547	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/9834f409a2dd1e9430f7c3517d574d71/rnsvg/RNSVGLayoutableShadowNode.cpp.o	a5933a5d5fb07a93
+4461	13384	0	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/ComponentDescriptors.cpp.o	9abe5962bb00c804
+5269	13049	7654654054964652	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/796ad459e5c56493b6ccb0d610a9a963/Props.cpp.o	ba209e518e9bb4cc
+8208	23599	7654654160794088	CMakeFiles/appmodules.dir/6e96a9c426e9d64d4913baa5d0edcc5a/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	17f139ed39afea7e
+1608	8928	7654653999389395	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/0d89bd37cf81073742d0b5a5b1135f52/components/rnsvg/RNSVGImageState.cpp.o	b6ae69dbbe134b5
+114	661	7654656349010819	build.ninja	12318cb3b7a75d83
+5712	14558	0	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/RNVectorIconsSpecJSI-generated.cpp.o	a95918aea7b44251
+7654	16596	7654654091556663	CMakeFiles/appmodules.dir/OnLoad.cpp.o	2b52b459ea299bfe
+23600	24151	7654654167124903	E:/IIT/2ndYear/SDGP_EverTea - backup/GrowthTracke.v.2/growthTrackerFE/android/app/build/intermediates/cxx/Debug/5f6n1u3h/obj/armeabi-v7a/libappmodules.so	da11efd2c3d41a72
+401	7646	7654653998831346	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/0d89bd37cf81073742d0b5a5b1135f52/components/rnsvg/RNSVGShadowNodes.cpp.o	35abc1bd0f56d925
+3304	9545	7654654014541567	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/7415a4633bf248d3148637d742b543dd/renderer/components/rnsvg/States.cpp.o	772caea321dc8e74
+710	10073	7654654019641227	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/0d89bd37cf81073742d0b5a5b1135f52/components/rnsvg/RNSVGImageShadowNode.cpp.o	3cf99ca6a0332dea
+2576	10680	7654654025564245	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/da689c812e180ebf23f881049bdd19aa/components/rnsvg/rnsvgJSI-generated.cpp.o	b88ea9df4261053
+22	11358	7654654027137569	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/da689c812e180ebf23f881049bdd19aa/components/rnsvg/ComponentDescriptors.cpp.o	2a613e66173a7932
+4848	12544	7654654043862624	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/796ad459e5c56493b6ccb0d610a9a963/EventEmitters.cpp.o	f8cf6fab14d52482
+2942	12079	7654654044355989	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/7415a4633bf248d3148637d742b543dd/renderer/components/rnsvg/ShadowNodes.cpp.o	1651e4ae439e3624
+3661	13030	7654654045101024	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/RNVectorIconsSpec-generated.cpp.o	93c44f3afdf24036
+4037	13038	7654654049319284	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/796ad459e5c56493b6ccb0d610a9a963/ShadowNodes.cpp.o	73b0f009841016f3
+996	14120	7654654066820960	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/da689c812e180ebf23f881049bdd19aa/components/rnsvg/EventEmitters.cpp.o	6985f3c23dcb67c5
+1927	13044	7654654050652295	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/rnsvg.cpp.o	cc78497fd2bf55da
+6708	13456	7654654060179449	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/796ad459e5c56493b6ccb0d610a9a963/States.cpp.o	ae478f174326e827
+2248	15014	7654654075296320	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/9bb6791e5f02cfb2f6c14d11e4d3a307/react/renderer/components/rnsvg/Props.cpp.o	aca2ff53441f62d5
+8929	15331	7654654078986437	rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/29c6ac0a1dd6ebb9204efeee5b088e58/EventEmitters.cpp.o	d026fd557de601dc
+15015	15857	7654654084100583	E:/IIT/2ndYear/SDGP_EverTea - backup/GrowthTracke.v.2/growthTrackerFE/android/app/build/intermediates/cxx/Debug/5f6n1u3h/obj/armeabi-v7a/libreact_codegen_rnsvg.so	9e9452388e2f1c72
+9547	16665	7654654092393066	rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/ShadowNodes.cpp.o	9aa04d9a2546ba2e
+12080	16692	7654654092689710	rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/States.cpp.o	e4402cfa9b2d5ef4
+10074	16853	0	rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/rnasyncstorageJSI-generated.cpp.o	d38debc030239c
+10681	17060	7654654096363034	rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/Props.cpp.o	7854f815c11a837b
+11404	17743	7654654103166657	rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/ComponentDescriptors.cpp.o	65c95f82d5a44936
+12545	18089	7654654106581330	rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/rnasyncstorage-generated.cpp.o	4c208f6ecd74fb0a
+1	87	0	E:/IIT/2ndYear/SDGP_EverTea - backup/GrowthTracke.v.2/growthTrackerFE/android/app/.cxx/Debug/5f6n1u3h/armeabi-v7a/CMakeFiles/cmake.verify_globs	1b4e9f4d39e7807b
+12	4100	0	rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/rnasyncstorageJSI-generated.cpp.o	d38debc030239c
+500	4457	0	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/RNVectorIconsSpecJSI-generated.cpp.o	a95918aea7b44251
+978	5418	0	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/ComponentDescriptors.cpp.o	9abe5962bb00c804
+5418	6283	7654656413710955	E:/IIT/2ndYear/SDGP_EverTea - backup/GrowthTracke.v.2/growthTrackerFE/android/app/build/intermediates/cxx/Debug/5f6n1u3h/obj/armeabi-v7a/libappmodules.so	da11efd2c3d41a72
+1	46	0	E:/IIT/2ndYear/SDGP_EverTea - backup/GrowthTracke.v.2/growthTrackerFE/android/app/.cxx/Debug/5f6n1u3h/armeabi-v7a/CMakeFiles/cmake.verify_globs	1b4e9f4d39e7807b
+10	3342	0	rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/rnasyncstorageJSI-generated.cpp.o	d38debc030239c
+542	3853	0	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/RNVectorIconsSpecJSI-generated.cpp.o	a95918aea7b44251
+279	3855	0	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/ComponentDescriptors.cpp.o	9abe5962bb00c804
+3855	4646	7654660817754869	E:/IIT/2ndYear/SDGP_EverTea - backup/GrowthTracke.v.2/growthTrackerFE/android/app/build/intermediates/cxx/Debug/5f6n1u3h/obj/armeabi-v7a/libappmodules.so	da11efd2c3d41a72
