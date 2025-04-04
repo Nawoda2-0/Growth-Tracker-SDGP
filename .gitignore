@@ -1,33 +1,63 @@
-# Gradle files
+# React Native
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# macOS
+.DS_Store
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/gradle/
 .gradle/
 build/
 
-# Local configuration file (sdk path, etc)
-local.properties
+# iOS
+ios/Pods/
+ios/build/
+ios/.xcode/
+*.xcuserstate
 
-# Log/OS Files
+# VS Code
+.vscode/
+
+# Expo
+.expo/
+.expo-shared/
+
+# Firebase
+firebase-debug.log
+
+# Java
+*.class
 *.log
+*.war
+*.jar
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
 
 # IntelliJ
-*.iml
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
 
-# Keystore files
-*.jks
-*.keystore
+# Eclipse
+.settings/
+.classpath
+.project
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# Windows
+Thumbs.db
 
-# Android Profiling
-*.hprof
+# Log files
+*.log
+
+# Environment files
+.env
