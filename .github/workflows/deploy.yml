@@ -1,35 +1,17 @@
-name: Build and Push to Docker Hub
-
-on:
-  push:
-    branches: [main]  # Change if your main branch is named differently
-  pull_request:
-
 jobs:
-  build-and-push:
+  build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout source code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
-      - name: Set up JDK 17
-        uses: actions/setup-java@v4
+      - name: Set up Java 17
+        uses: actions/setup-java@v3
         with:
-          java-version: '17'
           distribution: 'temurin'
+          java-version: '17'
 
-      - name: Build Spring Boot App
-        run: ./mvnw clean package -DskipTests
-
-      - name: Log in to Docker Hub
-        uses: docker/login-action@v3
-        with:
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
-
-      - name: Build Docker image
-        run: docker build -t nawodasilva/growth-tracker:latest .
-
-      - name: Push Docker image to Docker Hub
-        run: docker push nawodasilva/growth-tracker:latest
+      - name: Build with Maven
+        run: mvn clean package -DskipTests
+        working-directory: backend  # 👈 this tells it to run inside backend/
