@@ -20,11 +20,14 @@ Welcome to the **Growth Tracker** – a beautifully simple and intuitive feature
 - 📊 **Insightful Graphs** *(Coming Soon)*  
   View growth trends over time to better understand your plant’s journey.
 
-- 📷 **Photo Journal Integration**  
-  Add photos with each log to visually track your plant’s development.
+- 🗃️ Data stored in MySQL
+- - 📱 Mobile-friendly frontend (React Native)
+- ☁️ Deployed on AWS EC2 with Docker
+- 🔁 CI/CD Pipeline using GitHub Actions + Docker Hub
 
-- 🔔 **Smart Reminders**  
-  Never miss a watering or logging day with helpful reminders.
+---
+
+### 🧱 Architecture Diagram
 
 ---
 
@@ -47,10 +50,69 @@ Welcome to the **Growth Tracker** – a beautifully simple and intuitive feature
 
 ---
 
+### 🧰 DevOps Tools Used
+| Tool           | Purpose                                                        |
+|------------------|-------------------------------------------------------------------|
+| 🐳 Docker         |  Containerization of backend & database                         |
+| 🤖 GitHub Actions |  CI/CD pipeline for building & pushing Docker images            |
+| 📦 Docker Hub     | Image registry for deployment                                   |
+| ☁️ AWS EC2        | Hosting backend app and MySQL                                  |
+
+
+---
+
 ## 📁 File Structure
 
 
 ---
+
+
+---
+
+## 🐳 Docker & CI/CD
+
+### ✅ Dockerized Spring Boot App
+
+```Dockerfile
+FROM openjdk:17-jdk-slim
+WORKDIR /app
+COPY target/*.jar app.jar
+EXPOSE 8080
+ENTRYPOINT ["java", "-jar", "app.jar"]
+
+```
+
+---
+
+### ✅ GitHub Actions Workflow (.github/workflows/deploy.yml)
+
+- ➡️Builds the Spring Boot app
+- ➡️Pushes Docker image to Docker Hub: nawodasilva/growth-tracker-backend
+- ➡️Secrets used: DOCKER_USERNAME, DOCKER_PASSWORD
+
+---
+
+### 🔌 API Endpoints
+
+| Method | Endpoint                        | Description                    |
+|--------|----------------------------------|--------------------------------|
+| GET    | /plants                          | List all plants                |
+| GET    | /plants/{id}                     | Get plant by ID                |
+| POST   | /plants                          | Create a new plant             |
+| PUT    | /plants/{id}/height              | Update plant height            |
+| GET    | /plants/{id}/status?height=XX    | Evaluate plant growth status   |
+
+##🧪 Sample Payload
+   ```JSON
+   {
+    "name": "tea1",
+    "status": "good",
+    "height": 12.5
+  }
+```
+
+---
+
 
 ## 🚀 Getting Started
 
@@ -67,6 +129,47 @@ Welcome to the **Growth Tracker** – a beautifully simple and intuitive feature
 1. Run backend:
    ```bash
    Run using youe IDLE
+
+---
+
+### 🛠️ How to Run Locally with Docker
+1. Clone the repo
+    ```bash
+    git clone https://github.com/nawodasilva/Growth-Tracker-SDGP.git
+    cd Growth-Tracker-SDGP/GrowthTracke.v.2/backend
+    
+2. Build the JAR (optional if image exists)
+    ```bash
+    ./mvnw clean package -DskipTests
+
+3. Start MySQL container
+    ```bash
+    docker network create growth-network
+
+    docker run -d \
+      --name mysql-container \
+      --network growth-network \
+      -e MYSQL_ROOT_PASSWORD=<YOUR PASSWORD> \
+      -e MYSQL_DATABASE=growthtracker \
+      -p 3306:3306 \
+      mysql:8.0
+
+4. Start Spring Boot Container
+    ```bash
+    docker run -d \
+      --name growth-tracker-backend \
+      --network growth-network \
+      -p 8080:8080 \
+      -e SPRING_DATASOURCE_URL=jdbc:mysql://mysql-container:3306/growthtracker \
+      -e SPRING_DATASOURCE_USERNAME=root \
+      -e SPRING_DATASOURCE_PASSWORD=<YOUR PASSWORD>$ \
+      nawodasilva/growth-tracker-backend
+
+
+
+
+
+---
    
 ## 💡 Future Improvements
 1. **AI-driven growth predictions**
