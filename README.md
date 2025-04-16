@@ -27,7 +27,13 @@ Welcome to the **Growth Tracker** – a beautifully simple and intuitive feature
 
 ---
 
+## 📁 File Structure
+![image alt](https://github.com/Nawoda2-0/Growth-Tracker-SDGP/blob/20f0c4fb097233bf379a3cdbe54f578548ca9ed0/folderStructure.png)
+
+---
+
 ### 🧱 Architecture Diagram
+![image alt](https://github.com/Nawoda2-0/Growth-Tracker-SDGP/blob/20f0c4fb097233bf379a3cdbe54f578548ca9ed0/diagram.png)
 
 ---
 
@@ -57,14 +63,6 @@ Welcome to the **Growth Tracker** – a beautifully simple and intuitive feature
 | 🤖 GitHub Actions |  CI/CD pipeline for building & pushing Docker images            |
 | 📦 Docker Hub     | Image registry for deployment                                   |
 | ☁️ AWS EC2        | Hosting backend app and MySQL                                  |
-
-
----
-
-## 📁 File Structure
-
-
----
 
 
 ---
