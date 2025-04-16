@@ -1,20 +1,23 @@
-name: Build and Package Spring Boot App
+name: Build and Deploy Backend
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches:
+      - main
+
+defaults:
+  run:
+    working-directory: GrowthTracke.v.2/backend
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Set up Java
+      - name: Set up JDK 17
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
@@ -22,4 +25,5 @@ jobs:
 
       - name: Build with Maven
         run: ./mvnw clean package -DskipTests
-        working-directory: backend
+
+      # More steps for Docker etc. to follow later
