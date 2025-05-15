@@ -116,7 +116,7 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 
 1. Clone the EverTea App repository:
    ```bash
-   git clone https://github.com/yourusername/evertea-app.git
+   git clone https://github.com/Nawoda2-0/evertea-app.git
 2. Find Front end and BackEnd Folder:
    ```bash
    Back-end Folder : growth-tracker
@@ -133,7 +133,7 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 ### 🛠️ How to Run Locally with Docker
 1. Clone the repo
     ```bash
-    git clone https://github.com/nawodasilva/Growth-Tracker-SDGP.git
+    git clone https://github.com/Nawoda2-0/Growth-Tracker-SDGP.git
     cd Growth-Tracker-SDGP/GrowthTracke.v.2/backend
     
 2. Build the JAR (optional if image exists)
