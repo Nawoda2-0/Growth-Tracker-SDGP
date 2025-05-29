@@ -51,7 +51,7 @@ Welcome to the **Growth Tracker** – a beautifully simple and intuitive feature
 ## 🛠 Tech Stack
 
 - **Frontend:** React Native (TypeScript)
-- **Backend:** Spring Boot (with offline support)
+- **Backend:** Spring Boot
 - **Database:** MySQL
 
 ---
